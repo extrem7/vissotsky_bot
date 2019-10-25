@@ -1,0 +1,30 @@
+{
+  "sessions": [
+    {
+      "id": "381422194:381422194",
+      "data": {
+        "created": 1565621686278,
+        "name": "Юрий Кейнах",
+        "favorites": [],
+        "excludeRandom": [
+          48
+        ],
+        "excludeJokes": [
+          6,
+          2,
+          3
+        ],
+        "messagesToDelete": [],
+        "song": null,
+        "keyboard": [],
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "-1001276669609:753388099",
+      "data": {
+        "__scenes": {}
+      }
+    }
+  ]
+}
