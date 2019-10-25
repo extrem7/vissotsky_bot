@@ -7,17 +7,21 @@
         "name": "Юрий Кейнах",
         "favorites": [],
         "excludeRandom": [
-          48
+          48,
+          263,
+          397,
+          278,
+          243
         ],
         "excludeJokes": [
           6,
           2,
-          3
+          3,
+          1
         ],
         "messagesToDelete": [],
         "song": null,
-        "keyboard": [],
-        "__scenes": {}
+        "keyboard": []
       }
     },
     {
