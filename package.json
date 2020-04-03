@@ -4,7 +4,7 @@
   "description": "",
   "author": "Yurii Kinakh",
   "scripts": {
-    "start": "npm run serve",
+    "start": "node dist/bot.js",
     "build": "",
     "serve": "NODE_ENV=production node dist/bot.js",
     "watch-node": "nodemon dist/bot.js",

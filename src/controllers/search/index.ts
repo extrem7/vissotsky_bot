@@ -33,7 +33,7 @@ search.on('text', async (ctx: ContextMessageUpdate) => {
   if (!/^[а-яА-Я0-9 .-]*$/.test(query) && query.length >= 3) {
     await ctx.reply(texts.scenes.search.invalid)
   } else {
-    const songs = await api.search(ctx.message.text.replace(/\W/g, ''))
+    const songs = await api.search(ctx.message.text/*.replace(/\W/g, '')*/)
     if (songs.length) {
       const songsKeyboard = await getSongsKeyboard(ctx, songs)
       await ctx.reply(texts.scenes.search.found, songsKeyboard)
